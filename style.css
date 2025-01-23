@@ -16,16 +16,26 @@
         font-style: normal;
         font-variation-settings: "wdth" 100;
     }
+
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+
+    .lexend-<uniquifier> {
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
 */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lexend', sans-serif;
 }
 
 header {
     height: 100px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,8 +81,8 @@ li a:hover::after {
 
 main {
     display: flex;
-    border: 1px solid red;
-    background-color: #eee;
+    /* border: 1px solid red; */
+    background-color: #fff;
     height: calc(100vh - 100px); /* subtract menu height */
     align-items: center;
     justify-content: left;
@@ -89,7 +99,7 @@ main {
 
 .content-left {
     width: 50%;
-    padding: 12px 25px;
+    padding: 22px 22px;
     background-color: white;
     opacity: 85%;
 }
@@ -112,8 +122,8 @@ main p {
     font-size: 14px;
     font-weight: 400;
     color: #333;
-    line-height: 31.5px;
-    margin: 30px 0;
+    line-height: 30px;
+    margin: 22px 0;
 }
 
 .action-btn {
