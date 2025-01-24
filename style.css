@@ -125,6 +125,8 @@ footer a, footer p  {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 90px - 50px); /* Subtracts header and footer heights */
 }
 
 .cover {
@@ -209,15 +211,12 @@ main {
 main h1 {
     font-size: 54px;
     color: #1d3d55;
-    text-transform: uppercase;
 }
 
 main h2 {
     font-size: 25px;
     color: #f97c00;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    font-weight: 600;
 }
 
 main h3 {
@@ -228,7 +227,7 @@ main h3 {
 
 main p {
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
     margin: 22px 0;
 }
 
@@ -252,4 +251,71 @@ main p {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s;
+}
+
+.text-page {
+    width: 75%;
+    margin: 40px 0px;
+}
+
+.text-page ul {
+    margin-left: 30px;
+}
+
+.text-page li {
+    padding: 5px 0px;
+}
+
+.text-page p {
+    font-weight: 400;
+    line-height: 25px;
+    margin: 15px 0;
+}
+
+.text-page h1 {
+    margin: 25px 0px;
+}
+
+.text-page h2 {
+    margin: 25px 0px;
+}
+
+.text-page h3 {
+    margin: 25px 0px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin: 15px 0px;
+}
+
+.table th {
+    display: flex;
+    justify-content: left;
+}
+.table tr{
+    line-height: 30px;
+}
+
+.content-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.content-box-small {
+    display: flex;
+    min-width:40%;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin: 15px 0px;
 }

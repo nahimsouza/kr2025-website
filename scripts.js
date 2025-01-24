@@ -11,8 +11,8 @@ function loadComponents() {
         </div>
         <nav>
         <ul class="main__ul">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Important Dates</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dates.html">Important Dates</a></li>
             <li><a href="#">Calls</a>
             <ul class="dropdown">
                 <li><a href="#">Track 1</a></li>
