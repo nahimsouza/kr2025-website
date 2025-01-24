@@ -127,7 +127,11 @@ main {
 .cover-content {
     width: 50%;
     padding: 22px 22px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 7px;
+}
+.cover-content p {
+    color: #3a3a3a;
 }
 
 .content {
@@ -158,9 +162,8 @@ main {
     width: 100%;
     padding: 22px 22px;
     background-color: #fff;
-    border-color: rgb(238, 238, 238);
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
 }
 
 .content-text p {
@@ -197,13 +200,13 @@ main {
 
 main h1 {
     font-size: 54px;
-    color: #fff;
+    color: #1d3d55;
     text-transform: uppercase;
 }
 
 main h2 {
     font-size: 25px;
-    color: #fcda0c;
+    color: #f97c00;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -215,13 +218,17 @@ main h3 {
     color: #1d3d55;
 }
 
-
 main p {
     font-size: 14px;
     font-weight: 400;
     color: #eee;
     line-height: 30px;
     margin: 22px 0;
+}
+
+.action-btn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .action-btn {
