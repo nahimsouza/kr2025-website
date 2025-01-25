@@ -23,7 +23,7 @@ function loadComponents() {
             <li><a href="#">Submissions</a></li>
             <li><a href="#">Venue/Local</a>
             <ul class="dropdown">
-                <li><a href="#">Item 1</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="#">Item 2</a></li>
                 <li><a href="#">Item 3</a></li>
             </ul>
