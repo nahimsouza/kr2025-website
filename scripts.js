@@ -15,12 +15,13 @@ function loadComponents() {
         <ul class="main__ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="dates.html">Important Dates</a></li>
-            <li><a>Venue/Local</a>
+            <li><a>Venue &amp; Location</a>
                 <ul class="dropdown">
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </li>
-            <li><a href="guidelines.html">Submissions</a></li>
+            <li><a href="guidelines.html">Submission Info</a></li>
+            <li><a href="organization.html">Organization</a></li>
             <!--
             <li><a href="#">Calls</a>
                 <ul class="dropdown">
@@ -29,7 +30,6 @@ function loadComponents() {
                     <li><a href="#">Track 3</a></li>
                 </ul>
             </li>
-            <li><a href="#">Organization</a></li>
             <li><a href="#">Program</a></li>
             <li><a href="#">Sponsoring</a></li>
             <li><a href="#" class="registration-btn">Registration</a></li>

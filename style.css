@@ -105,7 +105,7 @@ nav ul li:hover>ul.dropdown {
 }
 
 footer {
-    height: 50px;
+    height: 40px;
     background: #3a3a3a;
     font-weight: 400;
     display: flex;
@@ -115,6 +115,8 @@ footer {
 
 footer a, footer p  {
     color: #eee;
+    font-size: 12px;
+    text-align: center;
 }
 
 .news {
@@ -142,7 +144,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: calc(100vh - 90px - 50px); /* Subtracts header and footer heights */
+    min-height: calc(100vh - 90px - 40px); /* Subtracts header and footer heights */
 }
 
 .cover {
@@ -158,10 +160,15 @@ main {
 }
 
 .cover-content {
-    width: 50%;
+    max-width: 50%;
     padding: 22px 22px;
     background-color: rgba(255, 255, 255, 0.85);
     border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .content {
@@ -169,21 +176,21 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: calc(100vh - 90px - 40px); /* Subtract header and footer */
     padding: 45px 0px;
 }
 
 .content-left {
     height: 100%;
     display: flex;
-    width: 45%;
+    width: 55%;
     margin-right: 20px;
 }
 
 .content-right {
     height: 100%;
     display: flex;
-    width: 35%;
+    width: 30%;
 }
 
 .content-text {
@@ -198,6 +205,10 @@ main {
     /* Scroll */
     flex: 1;
     overflow-y: auto;
+}
+
+.content-text p {
+    
 }
 
 .sponsors {
@@ -229,26 +240,35 @@ main {
 }
 
 main h1 {
-    font-size: 54px;
-    color: #1d3d55;
+    font-size: 48px;
+    color: #f97c00;
 }
 
 main h2 {
-    font-size: 25px;
-    color: #f97c00;
-    font-weight: 600;
+    font-size: 26px;
+    color: #142a3a;
+    font-weight: 800;
+    margin: 8px 0px;
 }
 
 main h3 {
-    font-size: 25px;
-    margin-bottom: 15px;
+    font-size: 20px;
     color: #1d3d55;
+    font-weight: 600;
+    margin: 8px 0px;
+}
+
+main h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 3px 0;
 }
 
 main p {
     line-height: 25px;
-    margin: 22px 0;
+    margin: 8px 0;
 }
+
 
 .action-btn a {
     text-decoration: none;
@@ -263,6 +283,8 @@ main p {
 
 .action-btn {
     padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
     background: #0092f6;
     color: #fff;
     outline: none;
@@ -297,6 +319,7 @@ main p {
 }
 
 .text-page h2 {
+    font-size: 26px;
     margin: 25px 0px;
 }
 
@@ -331,7 +354,7 @@ main p {
 
 .content-box-small {
     display: flex;
-    min-width:40%;
+    width:40%;
     flex-direction: column;
     padding: 0px 20px 20px 20px;
     background-color: #fff;
@@ -360,7 +383,7 @@ main p {
     display: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
     nav {
         position: relative;
         flex-direction: column;
@@ -395,4 +418,36 @@ main p {
     nav ul li a {
         color: #222;
     }
+
+    main h1 {
+        font-size: 34px;
+    }
+
+    main h2 {
+        font-size: 20px;
+    }
+
+    .cover-content {
+        max-width: 90%;
+    }
+    
+    .content-box-small {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content-left {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .content-right {
+        width: 90%;
+        margin: 10px 0;
+    }
+
 }
