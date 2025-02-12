@@ -61,15 +61,19 @@ nav ul li a:hover {
     background-color: #f2f2f2;
 }
 
-nav ul .registration-btn {
-    background-color: #0092f6;
+.action-link {
+    background-color: #235b82; /* KR light blue */
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 12px;
+    transition: background-color 0.3s;
 }
 
-nav ul .registration-btn:hover {
-    background-color: #0073c0;
+.action-link:hover {
+    background-color: #163b54; /* KR dark blue */
 }
 
 /* Dropdown Menu */
@@ -86,7 +90,7 @@ nav ul li ul.dropdown {
 }
 
 nav ul li ul.dropdown li {
-    width: 150px; /* Set a fixed width for dropdown items */
+    width: 200px; /* Set a fixed width for dropdown items */
 }
 
 nav ul li ul.dropdown li a {
@@ -137,7 +141,8 @@ footer a, footer p  {
 
 .news a,
 .text-page a {
-    color: #f97c00;
+    color: #005985;
+    font-weight: 500;
 }
 
 main {
@@ -246,14 +251,14 @@ main h1 {
 
 main h2 {
     font-size: 26px;
-    color: #142a3a;
+    color: #163b54; /* KR dark blue */
     font-weight: 800;
     margin: 8px 0px;
 }
 
 main h3 {
     font-size: 20px;
-    color: #1d3d55;
+    color: #235b82; /* KR light blue */
     font-weight: 600;
     margin: 8px 0px;
 }
@@ -267,31 +272,6 @@ main h4 {
 main p {
     line-height: 25px;
     margin: 8px 0;
-}
-
-
-.action-btn a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-}
-
-.action-btn:hover {
-    background-color: #0073c0;
-
-}
-
-.action-btn {
-    padding: 10px 15px;
-    margin-top: 20px;
-    margin-bottom: 8px;
-    background: #0092f6;
-    color: #fff;
-    outline: none;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
 }
 
 .text-page {
@@ -311,6 +291,10 @@ main p {
     font-weight: 400;
     line-height: 25px;
     margin: 15px 0;
+}
+
+.text-page ul {
+    line-height: 25px;
 }
 
 .text-page h1 {
@@ -342,6 +326,7 @@ main p {
     display: flex;
     justify-content: left;
 }
+
 .table tr{
     line-height: 30px;
 }
@@ -354,7 +339,7 @@ main p {
 
 .content-box-small {
     display: flex;
-    width:40%;
+    width: 50%;
     flex-direction: column;
     padding: 0px 20px 20px 20px;
     background-color: #fff;
