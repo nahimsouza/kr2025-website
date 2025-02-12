@@ -81,6 +81,7 @@ nav ul li ul.dropdown {
     display: none; /* Hide dropdown initially */
     position: absolute;
     top: 100%; /* Position below parent <li> */
+    width: fit-content;
     left: 0;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
