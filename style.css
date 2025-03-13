@@ -14,7 +14,7 @@ html {
 
 strong {
     font-size: inherit;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .logo img {
@@ -80,7 +80,8 @@ nav ul li a:hover {
 .action-link {
     background-color: #235b82; /* KR light blue */
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: inherit;
     border-radius: 5px;
     padding: 10px 15px;
     text-decoration: none;

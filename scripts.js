@@ -17,8 +17,11 @@ function loadComponents() {
             <li><a href="dates.html">Important Dates</a></li>
             <li><a href="#">Calls</a>
                 <ul class="dropdown">
-                    <li><a href="cfp_main_track.html">Main Track</a></li>
-                    <li><a href="cfp_tutorial_and_workshop.html">Tutorial and Workshop Proposals</a></li>
+                    <li><a href="call_main_track.html">Main Track</a></li>
+                    <li><a href="call_tutorial_and_workshop.html">Tutorial and Workshop Proposals</a></li>
+                    <li><a href="call_eca_award.html">Nominations: KR Early Career Award</a></li>
+                    <li><a href="call_tot_award.html">Nominations: KR Test of Time Award</a></li>
+                    <li><a href="call_dsa_award.html">Nominations: KR Distinguished Service Award</a></li>
                 </ul>
             </li>
             <li><a>Venue &amp; Location</a>
