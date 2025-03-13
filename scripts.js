@@ -9,7 +9,7 @@ function loadComponents() {
     <nav>
         <a href="index.html">
             <div class="logo">
-                <img src="images/logo_kr_blue_transparent.png" alt="Conference Logo" height="60px">
+                <img src="images/logo_kr_blue_transparent.png" alt="Conference Logo">
             </div>
         </a>
         <ul class="main__ul">

@@ -2,14 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     color: #3a3a3a;
 }
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px; /* Offset for sticky menu */
+    scroll-padding-top: 70px; /* Offset for sticky menu */
+}
+
+strong {
+    font-size: inherit;
+    font-weight: bolder;
+}
+
+.logo img {
+    height: 70%;
 }
 
 #header {
@@ -18,7 +27,7 @@ html {
 }
 
 header {
-    height: 90px;
+    height: 70px;
     font-weight: 400;
     background-color: #fcfcfc;
     /* background-color: rgba(250, 250, 250, 0.85); */
@@ -33,7 +42,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-width: 80%;
+    height: inherit;
 }
+
+nav a, nav div {
+    height: inherit;
+    display: flex;
+    align-items: center;
+} 
 
 nav ul {
     list-style: none;
@@ -128,7 +144,6 @@ footer a, footer p  {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    line-height: 25px;
 
     /* Scroll */
     flex: 1;
@@ -143,19 +158,29 @@ footer a, footer p  {
 .news a,
 .text-page a {
     color: #005985;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+h4 a {
+    font-size: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h4 a:hover {
+    text-decoration: underline;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: calc(100vh - 90px - 40px); /* Subtracts header and footer heights */
+    min-height: calc(100vh - 70px - 40px); /* Subtracts header and footer heights */
 }
 
 .cover {
     display: flex;
-    height: calc(100vh - 90px); /* subtract menu height */
+    height: calc(100vh - 70px); /* subtract menu height */
     align-items: center;
     justify-content: left;
     padding-left: 25px;
@@ -166,11 +191,10 @@ main {
 }
 
 .cover-content {
-    max-width: 50%;
-    padding: 22px 22px;
-    background-color: rgba(255, 255, 255, 0.85);
+    width: 50%;
+    padding: 30px 50px;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -182,7 +206,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 90px - 40px); /* Subtract header and footer */
+    height: calc(100vh - 70px - 40px); /* Subtract header and footer */
     padding: 45px 0px;
 }
 
@@ -203,18 +227,15 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 22px 22px;
+    padding: 30px 45px;
     background-color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    line-height: 1.8;
 
     /* Scroll */
     flex: 1;
     overflow-y: auto;
-}
-
-.content-text p {
-    
 }
 
 .sponsors {
@@ -246,21 +267,22 @@ main {
 }
 
 main h1 {
-    font-size: 48px;
-    color: #f97c00;
+    font-size: 46px;
+    font-weight: 600;
+    color: #f36800;
 }
 
 main h2 {
     font-size: 26px;
     color: #163b54; /* KR dark blue */
-    font-weight: 800;
+    font-weight: 500;
     margin: 8px 0px;
 }
 
 main h3 {
     font-size: 20px;
     color: #235b82; /* KR light blue */
-    font-weight: 600;
+    font-weight: 700;
     margin: 8px 0px;
 }
 
@@ -271,13 +293,13 @@ main h4 {
 }
 
 main p {
-    line-height: 25px;
     margin: 8px 0;
 }
 
 .text-page {
     width: 80%;
-    margin: 40px 0px;
+    margin: 50px 0px;
+    line-height: 1.8;
 }
 
 .text-page ul {
@@ -290,12 +312,7 @@ main p {
 
 .text-page p {
     font-weight: 400;
-    line-height: 25px;
     margin: 15px 0;
-}
-
-.text-page ul {
-    line-height: 25px;
 }
 
 .text-page h1 {
@@ -304,11 +321,12 @@ main p {
 }
 
 .text-page h2 {
-    font-size: 26px;
+    font-size: 24px;
     margin: 25px 0px;
 }
 
 .text-page h3 {
+    font-size: 18px;
     margin: 25px 0px;
 }
 
@@ -316,7 +334,7 @@ main p {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0px 20px 20px 20px;
+    padding: 10px 35px 30px 35px;
     background-color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -326,10 +344,12 @@ main p {
 .table th {
     display: flex;
     justify-content: left;
+    width: max-content;
+    margin-right: 20px;
 }
 
-.table tr{
-    line-height: 30px;
+.table td {
+    width: max-content;
 }
 
 .content-group {
@@ -340,9 +360,10 @@ main p {
 
 .content-box-small {
     display: flex;
-    width: 50%;
+    width: inherit;
+    max-width: 600px;
     flex-direction: column;
-    padding: 0px 20px 20px 20px;
+    padding: 5px 25px 30px 35px;
     background-color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5px;
