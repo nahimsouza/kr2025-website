@@ -345,12 +345,17 @@ main p {
 .table th {
     display: flex;
     justify-content: left;
-    width: max-content;
+    width: fit-content;
     margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    vertical-align: top;
 }
 
 .table td {
-    width: max-content;
+    width: fit-content;
+    text-align: left;
+    vertical-align: top;
 }
 
 .content-group {
@@ -436,7 +441,8 @@ main p {
     }
 
     .cover-content {
-        max-width: 90%;
+        min-width: 320px;
+        padding: 20px;
     }
     
     .content-box-small {
