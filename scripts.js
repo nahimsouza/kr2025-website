@@ -44,7 +44,7 @@ function loadComponents() {
 
     footer = `
     <footer>
-        <p>© Copyright - KR2025 Website was based on <a href="https://github.com/nahimsouza/conference-website/">Conference Website Template</a>. MIT License.</p>
+        <p>© Copyright <a href="https://github.com/nahimsouza/kr2025-website/">KR2025 Website</a>. MIT License.</p>
     </footer>
     `
 
