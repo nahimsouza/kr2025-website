@@ -45,7 +45,7 @@ function loadComponents() {
 
     footer = `
     <footer>
-        <p>© Copyright <a href="https://github.com/nahimsouza/kr2025-website/">KR2025 Website</a>. MIT License.</p>
+        <p>© Copyright <a href="https://github.com/nahimsouza/kr2025-website/">KR 2025 Website</a>. MIT License.</p>
     </footer>
     `
 

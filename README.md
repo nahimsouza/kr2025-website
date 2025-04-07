@@ -1,6 +1,6 @@
-# KR2025 Website
+# KR 2025 Website
 
-This is the repository for the [KR2025 Website](https://kr.org/KR2025/). The project was based on the [Conference Website Template](https://github.com/nahimsouza/conference-website). Please refer to the original repository for more details.
+This is the repository for the [KR 2025 Website](https://kr.org/KR2025/). The project was based on the [Conference Website Template](https://github.com/nahimsouza/conference-website). Please refer to the original repository for more details.
 
 ## For Developers
 
