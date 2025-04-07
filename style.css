@@ -366,7 +366,7 @@ main p {
 
 .content-box-small {
     display: flex;
-    width: inherit;
+    width: 45%;
     max-width: 600px;
     flex-direction: column;
     padding: 5px 25px 30px 35px;
