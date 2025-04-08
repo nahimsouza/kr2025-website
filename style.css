@@ -154,6 +154,7 @@ footer a, footer p  {
 .news li {
     margin: 10px 0px;
     text-decoration: none;
+    padding-right: 10px;
 }
 
 .news a,
