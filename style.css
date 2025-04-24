@@ -124,6 +124,8 @@ nav ul li ul.dropdown li a:hover {
 /* Show Dropdown on Hover */
 nav ul li:hover>ul.dropdown {
     display: block; /* Show dropdown when hovering over parent <li> */
+    max-height: 700px;
+    overflow-y: auto;
 }
 
 footer {
@@ -308,6 +310,10 @@ main p {
     margin-left: 30px;
 }
 
+.text-page ol {
+    margin-left: 30px;
+}
+
 .text-page li {
     padding: 5px 0px;
 }
@@ -465,4 +471,10 @@ main p {
         margin: 10px 0;
     }
 
+    nav ul li:hover>ul.dropdown {
+        display: block; /* Show dropdown when hovering over parent <li> */
+        max-height: 430px;
+        overflow-y: auto;
+    }
+    
 }
