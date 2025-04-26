@@ -3,19 +3,13 @@ function loadComponents() {
     // This workaround loads the header and the footer, 
     // and insert it into the proper divs (based on their IDs)
     // to avoid duplication across multiple pages.
-    
-    header = `
-    <header>
-    <nav>
-        <a href="index.html">
-            <div class="logo">
-                <img src="images/logo_kr_blue_transparent.png" alt="Conference Logo">
-            </div>
-        </a>
+
+    // Create menu HTML once
+    const menu = `
         <ul class="main__ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="dates.html">Important Dates</a></li>
-            <li><a href="#">Calls</a>
+            <li><a href="#">Calls &#9662;</a>
                 <ul class="dropdown">
                     <li><a href="call_main_track.html">Main Track</a></li>
                     <li><a href="call_kr_in_the_wild.html">KR in the Wild</a></li>
@@ -27,25 +21,34 @@ function loadComponents() {
                     <li><a href="call_doctoral_consortium.html">Doctoral Consortium Applications</a></li>
                 </ul>
             </li>
-            <li><a>Venue &amp; Location</a>
+            <li><a href="#">Venue &amp; Location &#9662;</a>
                 <ul class="dropdown">
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </li>
             <li><a href="organization.html">Organization</a></li>
-            <!--
-            <li><a href="guidelines.html">Submission Info</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Sponsoring</a></li>
-            <li><a href="#" class="action-link">Registration</a></li>
-            -->
         </ul>
-    </nav>
-    <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>
-    </header>
-    `
+    `;
+    
+    const header = `
+        <header>
+            <nav>
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="images/logo_kr_blue_transparent.png" alt="Conference Logo">
+                    </div>
+                </a>
+                ${menu}
+            </nav>
+            <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>
+            <div id="overlay-menu" class="overlay-menu">
+                <div class="close-btn" id="close-menu">&times;</div>
+                ${menu}
+            </div>
+        </header>
+    `;
 
-    footer = `
+    const footer = `
     <footer>
         <p>© Copyright <a href="https://github.com/nahimsouza/kr2025-website/">KR 2025 Website</a>. MIT License.</p>
     </footer>
@@ -54,9 +57,25 @@ function loadComponents() {
     document.getElementById('header').innerHTML = header;
     document.getElementById('footer').innerHTML = footer;
 
-    // responsive menu
-    document.querySelector('#menu').addEventListener('click', ()=>{
-        document.querySelector('nav ul').classList.toggle('showmenu');
+    // Responsive menu open/close
+    document.querySelector('#menu').addEventListener('click', () => {
+        document.getElementById('overlay-menu').classList.add('open');
+    });
+    
+    document.getElementById('close-menu').addEventListener('click', () => {
+        document.getElementById('overlay-menu').classList.remove('open');
+    });
+
+    // Submenu toggle behavior
+    const menuLinks = document.querySelectorAll('.overlay-menu ul li > a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const nextEl = link.nextElementSibling;
+            if (nextEl && nextEl.classList.contains('dropdown')) {
+                e.preventDefault();
+                nextEl.classList.toggle('show');
+            }
+        });
     });
 
 }
