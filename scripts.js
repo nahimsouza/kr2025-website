@@ -86,6 +86,14 @@ function loadComponents() {
         });
     });
 
+    // Close menu if window size changes
+    const mediaQuery = window.matchMedia('(min-width: 1025px)');
+    mediaQuery.addEventListener('change', (event) => {
+        if (event.matches) {
+            document.getElementById('overlay-menu').classList.remove('open');
+        }
+    });
+
 }
 
 window.onload = loadComponents;
