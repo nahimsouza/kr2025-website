@@ -21,12 +21,20 @@ function loadComponents() {
                     <li><a href="call_doctoral_consortium.html">Doctoral Consortium Applications</a></li>
                 </ul>
             </li>
+            <li><a href="#">Program &#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="speakers.html">Invited Speakers</a></li>
+                </ul>
+            </li>
             <li><a href="#">Venue &amp; Location &#9662;</a>
                 <ul class="dropdown">
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </li>
             <li><a href="organization.html">Organization</a></li>
+            <!--
+            <li><a href="#" class="action-link">Registration</a></li>
+            -->
         </ul>
     `;
     
