@@ -337,6 +337,17 @@ main p {
     margin: 25px 0px;
 }
 
+.text-page h3 a {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+.text-page h3 a:hover {
+    text-decoration: underline;
+}
+
+
 .content-box {
     display: flex;
     flex-direction: column;
