@@ -241,6 +241,16 @@ main {
     overflow-y: auto;
 }
 
+.content-text-borderless {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 1.8;
+}
+
 .sponsors {
     display: flex;
     align-items: center;

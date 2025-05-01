@@ -24,6 +24,7 @@ function loadComponents() {
             <li><a href="#">Program &#9662;</a>
                 <ul class="dropdown">
                     <li><a href="speakers.html">Invited Speakers</a></li>
+                    <li><a href="tutorial_and_workshop.html">Workshops &amp; Tutorials</a></li>
                 </ul>
             </li>
             <li><a href="#">Venue &amp; Location &#9662;</a>
