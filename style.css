@@ -517,6 +517,16 @@ main p {
     margin: 0;
 }
 
+.past-date {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.upcoming-date {
+    color: #d9534f;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 1024px) {
     nav {
         position: relative;

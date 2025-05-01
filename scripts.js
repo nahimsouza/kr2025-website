@@ -95,6 +95,36 @@ function loadComponents() {
         }
     });
 
+
+    // Highlight dates
+    function highlightDates() {
+        const elements = document.querySelectorAll('.date');
+        
+        // Get the AoE time based on local timezone
+        const now = new Date();
+        const nowAoE = new Date(now.getTime() + (now.getTimezoneOffset() * 60 * 1000) - (12 * 60 * 60 * 1000));
+
+        console.log(nowAoE)
+
+        elements.forEach(el => {
+            const dateStr = el.getAttribute("date-value");
+            const eventDate = new Date(dateStr); // Parsed in local or UTC depending on format
+            const eventDateEnd = new Date(eventDate.getTime() + (24 * 60 * 60 * 1000) - 1000); // 23h59m59s
+
+            // Calculate the difference in days
+            const diffInMs = eventDateEnd - nowAoE;
+            const diffInDays = diffInMs / (1000 * 60 * 60 * 24);
+        
+            if (diffInDays < 0) {
+                el.classList.add('past-date');
+            } else if (diffInDays < 7) {
+                el.classList.add('upcoming-date');
+            }
+        });
+    }
+
+    highlightDates();
+
 }
 
 window.onload = loadComponents;
