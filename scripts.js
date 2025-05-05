@@ -14,6 +14,7 @@ function loadComponents() {
                     <li><a href="call_main_track.html">Main Track</a></li>
                     <li><a href="call_kr_in_the_wild.html">KR in the Wild</a></li>
                     <li><a href="call_krr_in_ps.html">KR&amp;R in Planning &amp; Scheduling</a></li>
+                    <li><a href="call_kr_and_constraints.html">KR and Constraints</a></li>
                     <li><a href="call_tutorial_and_workshop.html">Tutorial and Workshop Proposals</a></li>
                     <li><a href="call_eca_award.html">Nominations: KR Early Career Award</a></li>
                     <li><a href="call_tot_award.html">Nominations: KR Test of Time Award</a></li>
