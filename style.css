@@ -244,7 +244,7 @@ main {
 .content-text-borderless {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   padding: 24px 20px;
   background-color: #fff;
   border-radius: 5px;
@@ -302,7 +302,7 @@ main h3 {
 main h4 {
   font-size: 18px;
   font-weight: 500;
-  margin: 3px 0;
+  margin: 6px 0;
 }
 
 main p {
@@ -576,5 +576,9 @@ main p {
   .content-group .speaker-photo {
     width: 120px;
     max-height: 120px;
+  }
+
+  .content-text-borderless {
+    width: 100%;
   }
 }
