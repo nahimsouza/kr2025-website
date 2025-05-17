@@ -34,6 +34,7 @@ function loadComponents() {
         </ul>
       </li>
       <li><a href="organization.html">Organization</a></li>
+      <li><a href="sponsoring.html">Sponsoring</a></li>
       <!--
       <li><a href="#" class="action-link">Registration</a></li>
       -->

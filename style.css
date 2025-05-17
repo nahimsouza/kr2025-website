@@ -257,14 +257,15 @@ main {
   justify-content: center;
   flex-direction: column;
   height: auto;
-  padding: 45px 0px;
+  width: 100%;
+  padding: 60px 0px;
 }
 
 .sponsors div {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 80%;
 }
 
 .sponsors h3 {
@@ -273,10 +274,8 @@ main {
 }
 
 .sponsors img {
-  width: 20%;
-  max-height: 60px;
-  max-width: 200px;
-  margin: 25px 20px;
+  height: 90px;
+  margin: 15px 20px;
 }
 
 main h1 {
