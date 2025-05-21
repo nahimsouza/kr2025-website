@@ -20,6 +20,7 @@ function loadComponents() {
           <li><a href="call_tot_award.html">Nominations: KR Test of Time Award</a></li>
           <li><a href="call_dsa_award.html">Nominations: KR Distinguished Service Award</a></li>
           <li><a href="call_doctoral_consortium.html">Doctoral Consortium Applications</a></li>
+          <li><a href="call_video_track.html">Video Track</a></li>
         </ul>
       </li>
       <li><a href="#">Program &#9662;</a>
