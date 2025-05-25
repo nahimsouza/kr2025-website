@@ -34,7 +34,13 @@ function loadComponents() {
           <li><a href="gallery.html">Gallery</a></li>
         </ul>
       </li>
-      <li><a href="organization.html">Organization</a></li>
+      <li><a href="#">Organization &#9662;</a>
+        <ul class="dropdown">
+          <li><a href="organization.html">General</a></li>
+          <li><a href="org_area_chairs.html">Area Chairs</a></li>
+          <li><a href="org_pc_members.html">Program Committee Members</a></li>
+        </ul>
+      </li>
       <li><a href="sponsoring.html">Sponsoring</a></li>
       <!--
       <li><a href="#" class="action-link">Registration</a></li>
