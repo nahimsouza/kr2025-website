@@ -627,4 +627,14 @@ main p {
   .content-text-borderless {
     width: 100%;
   }
+
+  .content-group {
+    justify-content: space-evenly;
+  }
+
+  .content-text-small {
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+  }
 }
