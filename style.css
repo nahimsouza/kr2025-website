@@ -425,6 +425,20 @@ main p {
   flex-wrap: wrap;
 }
 
+.content-group-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.content-group-gallery img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 .content-box-small {
   display: flex;
   width: 47%;
@@ -637,4 +651,14 @@ main p {
     margin: 0px;
     width: 100%;
   }
+
+  .content-group-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+  }
+
+  .content-group-gallery img {
+    width: 100%;
+    height: auto;
+  }
+
 }
