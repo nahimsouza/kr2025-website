@@ -211,6 +211,7 @@ main {
 
 .cover-content h4 {
   animation-delay: 1.0s;
+  font-weight: 500;
 }
 
 .cover-content .action-link {
@@ -285,6 +286,7 @@ main {
   background-color: #fff;
   border-radius: 5px;
   line-height: 1.8;
+  overflow-wrap: break-word;
 }
 
 .sponsors {
@@ -336,7 +338,7 @@ main h3 {
 
 main h4 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   margin: 6px 0;
 }
 
