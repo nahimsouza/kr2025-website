@@ -33,7 +33,7 @@ header {
   background-color: #fcfcfc;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -455,7 +455,7 @@ main p {
 
 .content-text-small {
   display: flex;
-  width: 47%;
+  width: 33%;
   max-width: 600px;
   flex-direction: column;
   padding: 5px 25px 30px 35px;
@@ -644,11 +644,20 @@ main p {
   width: 20%;
 }
 
+@media only screen and (max-width: 900px) {
+  .content-text-small {
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+  }
+}
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
   nav {
     position: relative;
     flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
   }
 
   .box-icon {
@@ -660,7 +669,9 @@ main p {
   nav ul {
     display: none;
   }
+}
 
+@media only screen and (max-width: 1024px) {
   main h1 {
     font-size: 34px;
   }
@@ -704,12 +715,6 @@ main p {
 
   .content-group {
     justify-content: space-evenly;
-  }
-
-  .content-text-small {
-    padding: 5px;
-    margin: 0px;
-    width: 100%;
   }
 
   .content-group-gallery {
