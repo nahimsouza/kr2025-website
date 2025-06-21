@@ -30,12 +30,12 @@ function loadComponents() {
           <li><a href="tutorial_and_workshop.html">Workshops &amp; Tutorials</a></li>
         </ul>
       </li>
-      <li><a href="#">Local Information &#9662;</a>
+      <li><a href="#">Attendee Info &#9662;</a>
         <ul class="dropdown">
           <li><a href="info_venue.html">Venue</a></li>
           <li><a href="info_visa.html">Visa</a></li>
           <li><a href="info_accomodation.html">Accomodation</a></li>
-          <li><a href="info_gallery.html">Gallery</a></li>
+          <li><a href="info_gallery.html">Visit Melbourne</a></li>
         </ul>
       </li>
       <li><a href="#">Organization &#9662;</a>
