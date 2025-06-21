@@ -340,6 +340,7 @@ main h4 {
   font-size: 18px;
   font-weight: 700;
   margin: 6px 0;
+  text-align: left;
 }
 
 main p {
@@ -542,6 +543,10 @@ main p {
   opacity: 1;
 }
 
+.speakers {
+  justify-content: flex-start;
+}
+
 .content-group .speaker-box {
   text-align: center;
   justify-content: space-evenly;
@@ -555,8 +560,10 @@ main p {
 }
 
 .content-group .speaker-photo {
-  width: 150px;
-  max-height: 150px;
+  min-width: 180px;
+  max-width: 180px;
+  min-height: 190px;
+  max-height: 190px;
   object-fit: cover;
   justify-content: space-evenly;
   margin-top: auto;
@@ -705,8 +712,14 @@ main p {
   }
 
   .content-group .speaker-photo {
-    width: 120px;
-    max-height: 120px;
+    min-width: 110px;
+    max-width: 110px;
+    min-height: 140px;
+    max-height: 140px;
+  }
+
+  .content-group .speaker-box {
+    padding: 20px;
   }
 
   .content-text-borderless {
