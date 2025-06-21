@@ -587,6 +587,64 @@ main p {
   font-weight: bold;
 }
 
+.accommodations-table {
+  border-collapse: collapse;
+  width: 90%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+.accommodations-table thead tr {
+  background-color: #235b82; /* KR light blue */
+}
+
+.accommodations-table th {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+  text-align: left;
+  color: white;
+}
+
+
+.accommodations-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.accommodations-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.accommodations-table ul {
+  padding-left: 1.2em;
+  margin: 0;
+}
+
+.accommodations-table li {
+  margin-bottom: 5px;
+}
+
+.accommodations-table th:nth-child(1),
+.accommodations-table td:nth-child(1) {
+  width: 33%;
+}
+
+.accommodations-table th:nth-child(2),
+.accommodations-table td:nth-child(2) {
+  width: 40%;
+}
+
+.accommodations-table th:nth-child(3),
+.accommodations-table td:nth-child(3) {
+  width: 20%;
+}
+
+
 @media only screen and (max-width: 1024px) {
   nav {
     position: relative;
@@ -663,4 +721,7 @@ main p {
     height: auto;
   }
 
+  .accommodations-table {
+    width: 100%;
+  }
 }
