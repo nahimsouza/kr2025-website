@@ -34,7 +34,7 @@ function loadComponents() {
         <ul class="dropdown">
           <li><a href="info_venue.html">Venue</a></li>
           <li><a href="info_visa.html">Visa</a></li>
-          <li><a href="info_accomodation.html">Accomodation</a></li>
+          <li><a href="info_accomodation.html">Accommodation</a></li>
           <li><a href="info_gallery.html">Visit Melbourne</a></li>
         </ul>
       </li>
