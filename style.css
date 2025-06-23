@@ -596,7 +596,8 @@ main p {
 
 .accommodations-table {
   border-collapse: collapse;
-  width: 90%;
+  min-width: 70%;
+  max-width: 90%;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -614,7 +615,6 @@ main p {
   text-align: left;
   color: white;
 }
-
 
 .accommodations-table td {
   text-align: left;
@@ -634,21 +634,6 @@ main p {
 
 .accommodations-table li {
   margin-bottom: 5px;
-}
-
-.accommodations-table th:nth-child(1),
-.accommodations-table td:nth-child(1) {
-  width: 33%;
-}
-
-.accommodations-table th:nth-child(2),
-.accommodations-table td:nth-child(2) {
-  width: 40%;
-}
-
-.accommodations-table th:nth-child(3),
-.accommodations-table td:nth-child(3) {
-  width: 20%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -737,9 +722,5 @@ main p {
   .content-group-gallery img {
     width: 100%;
     height: auto;
-  }
-
-  .accommodations-table {
-    width: 100%;
   }
 }
