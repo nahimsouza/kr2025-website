@@ -21,7 +21,7 @@ function loadComponents() {
           <li><a href="call_dsa_award.html">Nominations: KR Distinguished Service Award</a></li>
           <li><a href="call_doctoral_consortium.html">Doctoral Consortium Applications</a></li>
           <li><a href="call_video_track.html">Video Track</a></li>
-          <li><a href="call_recently_published.html">Recently Published Papers Track</a></li>
+          <li><a href="call_recently_published.html">Recently Published Research Track</a></li>
         </ul>
       </li>
       <li><a href="#">Program &#9662;</a>
