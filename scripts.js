@@ -1,6 +1,6 @@
 
 function loadComponents() {
-  // This workaround loads the header and the footer, 
+  // This workaround loads the header and the footer,
   // and insert it into the proper divs (based on their IDs)
   // to avoid duplication across multiple pages.
 
@@ -28,6 +28,7 @@ function loadComponents() {
         <ul class="dropdown">
           <li><a href="speakers.html">Invited Speakers</a></li>
           <li><a href="tutorial_and_workshop.html">Workshops &amp; Tutorials</a></li>
+          <li><a href="accepted.html">Accepted Submissions</a></li>
         </ul>
       </li>
       <li><a href="#">Attendee Info &#9662;</a>
@@ -51,7 +52,7 @@ function loadComponents() {
       -->
     </ul>
   `;
-  
+
   const header = `
     <header>
       <nav>
@@ -83,7 +84,7 @@ function loadComponents() {
   document.querySelector('#menu').addEventListener('click', () => {
     document.getElementById('overlay-menu').classList.add('open');
   });
-  
+
   document.getElementById('close-menu').addEventListener('click', () => {
     document.getElementById('overlay-menu').classList.remove('open');
   });
@@ -112,7 +113,7 @@ function loadComponents() {
   // Highlight dates
   function highlightDates() {
     const elements = document.querySelectorAll('.date');
-    
+
     // Get the AoE time based on local timezone
     const now = new Date();
     const nowAoE = new Date(now.getTime() + (now.getTimezoneOffset() * 60 * 1000) - (12 * 60 * 60 * 1000));
@@ -127,7 +128,7 @@ function loadComponents() {
       // Calculate the difference in days
       const diffInMs = eventDateEnd - nowAoE;
       const diffInDays = diffInMs / (1000 * 60 * 60 * 24);
-    
+
       if (diffInDays < 0) {
         el.classList.add('past-date');
       } else if (diffInDays < 7) {
