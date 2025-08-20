@@ -22,6 +22,8 @@ function loadComponents() {
           <li><a href="call_doctoral_consortium.html">Doctoral Consortium Applications</a></li>
           <li><a href="call_video_track.html">Video Track</a></li>
           <li><a href="call_recently_published.html">Recently Published Research Track</a></li>
+          <li><a href="call_student_grants.html">Student Grants</a></li>
+          <li><a href="call_dni_grants.html">Diversity and Inclusion Grants</a></li>
         </ul>
       </li>
       <li><a href="#">Program &#9662;</a>

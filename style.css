@@ -92,7 +92,7 @@ nav ul li ul.dropdown {
 }
 
 nav ul li ul.dropdown li {
-  width: 200px; /* Set a fixed width for dropdown items */
+  width: 260px; /* Set a fixed width for dropdown items */
 }
 
 nav ul li ul.dropdown li a {
