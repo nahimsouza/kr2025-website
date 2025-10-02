@@ -690,6 +690,99 @@ main p {
   border-right: 1px solid #ddd;
 }
 
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  text-align: center;
+  table-layout: fixed;
+  font-weight: 600;
+  min-width: 1200px;
+}
+
+.schedule-table thead tr:nth-child(2) th,
+.schedule-table tbody td:not(:first-child) {
+  width: 7.5%;
+  min-width: 50px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 12px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.schedule-table thead th {
+  background-color: #235b82; /* KR light blue */;
+  color: white;
+  font-weight: bold;
+}
+
+.schedule-table td[colspan="3"] {
+  /* background-color: #e6f2ff; */
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.schedule-table td:empty {
+  background-color: #fff;
+}
+
+.schedule-table td,
+.schedule-table th {
+  min-width: 100px;
+}
+
+.schedule-table td:first-child {
+  font-weight: bold;
+  background-color: #fcfcfc;
+  width: 120px;
+}
+
+.schedule-table .s-blue {
+  background-color: #eef9ff;
+}
+
+.schedule-table .s-darkblue {
+  background-color: #e4ebff;
+}
+
+.schedule-table .s-yellow {
+  background-color: #ffffd8;
+}
+
+.schedule-table .s-green {
+  background-color: #e9ffea;
+}
+
+.schedule-table .s-red {
+  background-color: #ffe3de;
+}
+
+.schedule-table .s-purple {
+  background-color: #f3deff;
+}
+
+.smaller-text li{
+  font-size: 14px;
+}
+
+.smaller-text h4 {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.smaller-text em {
+  font-size: 1em;
+}
+
+
+
+/* Responsive CSS for small screens*/
+
 @media only screen and (max-width: 900px) {
   .content-text-small {
     padding: 5px;
