@@ -766,6 +766,10 @@ main p {
   background-color: #f3deff;
 }
 
+.schedule-table .s-orange {
+  background-color: #ffbfa6;
+}
+
 .smaller-text li{
   font-size: 14px;
 }
