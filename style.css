@@ -786,6 +786,12 @@ main p {
 }
 
 .smaller-text h4 {
+  color: #f36800; /* KR light blue */
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.smaller-text h5 {
   font-size: 14px;
   margin: 20px 0;
 }
