@@ -32,6 +32,7 @@ function loadComponents() {
           <li><a href="speakers.html">Invited Speakers</a></li>
           <li><a href="tutorial_and_workshop.html">Workshops &amp; Tutorials</a></li>
           <li><a href="accepted.html">Accepted Submissions</a></li>
+          <li><a href="https://ceur-ws.org/Vol-4078/" target="_blank">DC Proceedings</a></li>
         </ul>
       </li>
       <li><a href="#">Attendee Info &#9662;</a>
