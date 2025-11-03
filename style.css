@@ -770,15 +770,19 @@ main p {
 }
 
 .s-pink {
-  background-color: #ffe0f4 !important;
+  background-color: #ffcfe3 !important;
 }
 
 .s-lightorange {
-  background-color: #ffe4b6 !important;
+  background-color: #ffe399 !important;
 }
 
 .s-aqua {
-  background-color: #97ffdc !important;
+  background-color: #bdffe9 !important;
+}
+
+.s-greener {
+  background-color: #c9fdc4 !important;
 }
 
 .smaller-text li{
