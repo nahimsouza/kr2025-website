@@ -75,7 +75,7 @@ function loadComponents() {
 
   const footer = `
   <footer>
-    <p>© Copyright <a href="https://github.com/nahimsouza/kr2025-website/">KR 2025 Website</a>. MIT License.</p>
+    <p>© Copyright <a href="https://github.com/nahimsouza/kr2025-website/" target="_blank">KR 2025 Website</a>. MIT License.</p>
   </footer>
   `
 
