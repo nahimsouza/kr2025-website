@@ -32,7 +32,8 @@ function loadComponents() {
           <li><a href="speakers.html">Invited Speakers</a></li>
           <li><a href="tutorial_and_workshop.html">Workshops &amp; Tutorials</a></li>
           <li><a href="accepted.html">Accepted Submissions</a></li>
-          <li><a href="https://ceur-ws.org/Vol-4078/" target="_blank">DC Proceedings</a></li>
+          <li><a href="https://proceedings.kr.org/2025/" target="_blank">KR 2025 Proceedings</a></li>
+          <li><a href="https://ceur-ws.org/Vol-4078/" target="_blank">KR-DC Proceedings</a></li>
         </ul>
       </li>
       <li><a href="#">Attendee Info &#9662;</a>
