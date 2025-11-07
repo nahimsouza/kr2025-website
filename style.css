@@ -804,6 +804,16 @@ main p {
   font-size: 1em;
 }
 
+.smaller-text a {
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.smaller-text a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive CSS for small screens*/
 
 @media only screen and (max-width: 900px) {
