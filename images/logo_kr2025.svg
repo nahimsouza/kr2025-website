@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="130px"
+   height="124px"
+   viewBox="0 0 148 124"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg3"
+   sodipodi:docname="cover.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="7.1451613"
+     inkscape:cx="65.079007"
+     inkscape:cy="62.209932"
+     inkscape:window-width="1854"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3"
+     showgrid="false" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="theme-main"
+       gradientTransform="rotate(45)">
+      <stop
+         offset="0%"
+         stop-color="#3498DB"
+         id="stop1" />
+      <stop
+         offset="35%"
+         stop-color="#3498DB"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#3b9f9b"
+         id="stop3" />
+    </linearGradient>
+  </defs>
+  <style
+     type="text/css"
+     id="style3"><![CDATA[
+		svg:hover #logoblack { fill: url('#theme-main'); }
+    ]]></style>
+  <path
+     id="logoblue"
+     fill="url(#theme-main)"
+     d="M0,0v62h19V48l13,14h22L28,33l16-17h36c0,0,6,2,6,6s-6,6-6,6H66c0,0-3,0-5-1l-4-3L46,35l72,71h30L86,44 c0,0,18-11,18-22S86,0,86,0H36L19,16V0H0z"
+     style="fill:#008080;fill-opacity:1" />
+  <path
+     id="logoblack"
+     fill="#393939"
+     stroke="#ffffff"
+     stroke-width="0"
+     d="M0,124V62h19v14l13-14h22L28,91l16,17h36c0,0,6-2,6-6s-6-6-6-6H66c0,0-3,0-5,1l-4,3L46,89l72-71h30L86,80 c0,0,18,11,18,22s-18,22-18,22H36l-17-16v16H0z"
+     style="fill:#235b82;fill-opacity:1" />
+</svg>

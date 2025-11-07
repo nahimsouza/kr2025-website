@@ -61,7 +61,7 @@ function loadComponents() {
       <nav>
         <a href="index.html">
           <div class="logo">
-            <img src="images/logo_kr_blue_transparent.png" alt="Conference Logo">
+            <img src="images/logo_kr2025.svg" alt="Conference Logo">
           </div>
         </a>
         ${menu}
